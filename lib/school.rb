@@ -25,8 +25,8 @@ def grade(grade_level)
       end
       
 def sort 
-  [@roster.sort.map { |a,b| [a, b.sort] }]
-  
+  @roster.each{|k, v| v.sort!}
+end
 end
 
 end
