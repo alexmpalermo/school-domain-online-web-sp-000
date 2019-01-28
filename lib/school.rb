@@ -25,7 +25,7 @@ def grade(grade_level)
       end
       
 def sort 
-  @roster[my_hash.sort.map { |a,b| [a, b.sort] }]
+  [@roster.sort.map { |a,b| [a, b.sort] }]
   
 end
 
