@@ -26,7 +26,7 @@ def grade(grade_level)
       
 def sort 
   @roster.each{|k, v| v.sort!}
-end
+
 end
 
 end
