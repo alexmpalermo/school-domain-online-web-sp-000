@@ -25,7 +25,7 @@ def grade(grade_level)
       end
       
 def sort 
-  @roster.sort_by {|k, v|}
+  @roster.sort {|a,b| a[1]<=>b[1]}
   
 end
 
